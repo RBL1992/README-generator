@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Created a command-line application that dynamically generates a professional README.md file from user input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBL1992/README-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RBL1992/README-generator/issues"
+  },
+  "homepage": "https://github.com/RBL1992/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

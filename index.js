@@ -1,7 +1,8 @@
 const inquirer = require('inquirer')
 const fileSystem = require('fs')
 
-const questions = [
+inquirer
+    .prompt([
     {
         type: 'input',
         message: 'Tilte of Project',
@@ -53,5 +54,8 @@ const questions = [
         message: 'Plase enter your email',
         name: 'email',
     },
-];
+])
+.then((response)=> {
+
+})
 

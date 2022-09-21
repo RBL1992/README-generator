@@ -30,11 +30,6 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Project description',
-        name: 'description',
-    },
-    {
-        type: 'input',
         message: 'Please provide testing info',
         name: 'testing',
     },
@@ -55,7 +50,50 @@ inquirer
         name: 'email',
     },
 ])
-.then((response)=> {
-
+.then((answers)=> {
+    fs.writeFileSync('README.md', generateREADME(answers))
+    console.log('README created!');
 })
+.catch ((err) => console.error(err));
+
+const generateREADME = ({projectTitle, description, installation, usage, contributors, testing, license, GitHubUsername, email}) =>
+`# ${projectTitle}
+## Table of Contents
+*[Project Description](#description)
+*[Installation Instructions](#installation)
+*[Usage](#usage)
+*[Contributors](#contributors)
+*[Testing](#testing)
+*[License](#license)
+*[Questions](#questions)
+
+## Description
+${description}
+<p align="right">(<a href="top">Back to Top</a>)</p>
+
+## Installation
+${installation}
+<p align="right">(<a href="top">Back to Top</a>)</p>
+
+## Usage
+${usage}
+<p align="right">(<a href="top">Back to Top</a>)</p>
+
+## Contributors
+${contributors}
+<p align="right">(<a href="top">Back to Top</a>)</p>
+
+## Testing
+${testing}
+<p align="right">(<a href="top">Back to Top</a>)</p>
+
+## License
+${
+    (()=>{
+        switch ()
+    })
+}
+<p align="right">(<a href="top">Back to Top</a>)</p>
+
+`
 

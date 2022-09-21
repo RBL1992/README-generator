@@ -1,5 +1,5 @@
-const inquirer = require('inquirer')
-const fileSystem = require('fs')
+const inquirer = require('inquirer');
+const fs = require('fs');
 
 inquirer
     .prompt([
@@ -51,7 +51,8 @@ inquirer
         },
     ])
     .then((answers) => {
-        fs.writeFileSync('README.md', generateREADME(answers))
+        JSON.stringify(answers)
+        fs.writeFileSync('generatedREADME.md', generateREADME({...answers}))
         console.log('README created!');
     })
     .catch((err) => console.error(err));

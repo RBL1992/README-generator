@@ -51,15 +51,14 @@ inquirer
         },
     ])
     .then((answers) => {
-        JSON.stringify(answers)
-        fs.writeFileSync('generatedREADME.md', generateREADME({...answers}))
+        // JSON.stringify(answers)
+        fs.writeFileSync('generatedREADME.md', generateREADME(answers))
         console.log('README created!');
     })
     .catch((err) => console.error(err));
 
 const generateREADME = ({ projectTitle, description, installation, usage, contributors, testing, license, GitHubUsername, email }) => {
-
-    `
+    return `
     <div id="top"></div>
     # ${projectTitle}
 ## Table of Contents

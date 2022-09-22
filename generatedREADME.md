@@ -1,5 +1,5 @@
 
-# Happiness
+# Happy
 
 ## Table of Contents
 *[Project Description](#description)
@@ -17,15 +17,15 @@
 *[Questions](#questions)
 
 ## Description
-TAcos
+Happy
 
 
 ## Installation
-meow
+N/a
 
 
 ## Usage
-rawr
+N/a
 
 
 ## License
@@ -33,16 +33,16 @@ rawr
 
 
 ## Contributors
-mmm
+N/a
 
 
 ## Testing
-no
+N/a
 
 
 ## Questions
 
-GitHub: [RBL1992](https://github.com/RBL1992)
+GitHub: [Rbl1992](https://github.com/Rbl1992)
 
 Email: [mailto:loganroyjr4@gmail.com]
 

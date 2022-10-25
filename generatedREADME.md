@@ -1,31 +1,30 @@
 
-# Happy
+# TeamSpeak 
 
 ## Table of Contents
-*[Project Description](#description)
+* [Project Description](#description)
 
-*[Installation Instructions](#installation)
+* [Installation Instructions](#installation)
 
-*[Usage](#usage)
+* [Usage](#usage)
 
-*[License](#license)
+* [License](#license)
 
-*[Contributors](#contributors)
+* [Contributors](#contributors)
 
-*[Testing](#testing)
+* [Testing](#testing)
 
-*[Questions](#questions)
+* [Questions](#questions)
 
 ## Description
-Happy
 
 
 ## Installation
-N/a
+
 
 
 ## Usage
-N/a
+
 
 
 ## License
@@ -33,16 +32,16 @@ N/a
 
 
 ## Contributors
-N/a
+
 
 
 ## Testing
-N/a
+
 
 
 ## Questions
 
-GitHub: [Rbl1992](https://github.com/Rbl1992)
+GitHub: [RBL1992](https://github.com/RBL1992)
 
 Email: [mailto:loganroyjr4@gmail.com]
 

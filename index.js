@@ -58,22 +58,22 @@ inquirer
 
 const generateREADME = ({ projectTitle, description, installation, usage, contributors, testing, license, GitHubUsername, email }) => {
     return `
-# ${projectTitle}
+# ${projectTitle} 
 
 ## Table of Contents
-*[Project Description](#description)
+* [Project Description](#description)
 
-*[Installation Instructions](#installation)
+* [Installation Instructions](#installation)
 
-*[Usage](#usage)
+* [Usage](#usage)
 
-*[License](#license)
+* [License](#license)
 
-*[Contributors](#contributors)
+* [Contributors](#contributors)
 
-*[Testing](#testing)
+* [Testing](#testing)
 
-*[Questions](#questions)
+* [Questions](#questions)
 
 ## Description
 ${description}

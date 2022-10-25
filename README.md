@@ -1,19 +1,19 @@
 # README Generator
 
 ## Table of Contents
-*[Project Description](#description)
+* [Project Description](#description)
 
-*[Installation Instructions](#installation)
+* [Installation Instructions](#installation)
 
-*[Usage](#usage)
+* [Usage](#usage)
 
-*[License](#license)
+* [License](#license)
 
-*[Contributors](#contributors)
+* [Contributors](#contributors)
 
-*[Testing](#testing)
+* [Testing](#testing)
 
-*[Questions](#questions)
+* [Questions](#questions)
 
 ## Description
 Created a command-line application that dynamically generates a professional README.md file from a user's input

@@ -1,5 +1,5 @@
 
-# Industry Portfolio 
+# Bucket List 
 
 ## Table of Contents
 * [Project Description](#description)
@@ -17,7 +17,7 @@
 * [Questions](#questions)
 
 ## Description
-Portfolio of ME
+N/A
 
 
 ## Installation
@@ -42,8 +42,8 @@ N/A
 
 ## Questions
 
-GitHub: [rbl1992](https://github.com/rbl1992)
+* [GitHub](https://github.com/rbl1992)
 
-Email: [mailto:loganroyjr4@gmail.com]
+* [Email](mailto:loganroyjr4@gmail.com)
 
 

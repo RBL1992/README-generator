@@ -36,7 +36,7 @@ inquirer
         {
             type: 'list',
             message: 'Choose a license for your project',
-            choices: ['MIT', 'Apache 2.0', 'GPL 3.0'],
+            choices: ['GNU AGPL v3', "GNU GPL v3", "GNU LGPL v3","Mozilla Public License 2.0","Apache License 2.0","The MIT License","Boost Software License 1.0","The Unlicense"],
             name: 'license'
         },
         {
@@ -90,12 +90,24 @@ ${usage}
 ## License
 ${(() => {
             switch (license) {
-                case "MIT":
-                    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-                case "Apache 2.0":
-                    return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
-                case "GPL 3.0":
-                    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+                case "GNU AGPL v3":
+                    return `(https://img.shields.io/badge/License-AGPL_v3-blue.svg)]`;
+                case "GNU GPL v3":
+                    return `(https://img.shields.io/badge/License-GPLv3-blue.svg)`;
+                case "GNU LGPL v3":
+                    return `(https://img.shields.io/badge/License-LGPL_v3-blue.svg)`;
+                case "Mozilla Public License 2.0":
+                    return `(https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)`;
+                case "Apache License 2.0":
+                    return `(https://img.shields.io/badge/License-Apache_2.0-blue.svg)`;
+                case "The MIT License":
+                    return `(https://img.shields.io/badge/License-MIT-yellow.svg)`;
+                case "Boost Software License 1.0":
+                    return `(https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)`;
+                case "The Unlicense":
+                    return `(https://img.shields.io/badge/license-Unlicense-blue.svg)`;
+                default:
+                    return;
             }
         })()
         }
@@ -111,9 +123,9 @@ ${testing}
 
 ## Questions
 
-GitHub: [${GitHubUsername}](https://github.com/${GitHubUsername})
+* [GitHub](https://github.com/${GitHubUsername})
 
-Email: [mailto:${email}]
+* [Email](mailto:${email})
 
 
 `}
